@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Excercise_Quyen
 {
-    class Lion : Animal
+    class Lion : Animal, ICarnivore
     {
         private string color;
 
@@ -28,10 +28,9 @@ namespace OOP_Excercise_Quyen
             Console.WriteLine("Lion make sound....");
         }
 
-        public void Hunting(Animal prey)
+        public void Hunt(Animal prey)
         {
             Console.WriteLine($"{Name} hunts {prey.Name}");
         }
-
     }
 }

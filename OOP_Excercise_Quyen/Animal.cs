@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Excercise_Quyen
 {
-    abstract class Animal
+    public abstract class Animal
     {
         string name;
         int age;
@@ -22,9 +22,9 @@ namespace OOP_Excercise_Quyen
 
         public abstract void makeSound();
 
-        public void showInfo()
+        public string showInfo()
         {
-            Console.WriteLine($"Name: {Name}, Age: {Age}, Species: {Species}");
+            return $"Name: {Name}, Age: {Age}, Species: {Species}";
         }
 
         public string Name
@@ -43,6 +43,11 @@ namespace OOP_Excercise_Quyen
         {
             get { return species; }
             set { species = value; }
+        }
+
+        public string GetAnimalType()
+        {
+            return $"Type: {Species}";
         }
     }
 }
