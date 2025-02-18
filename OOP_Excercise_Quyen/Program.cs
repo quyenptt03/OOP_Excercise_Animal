@@ -25,13 +25,15 @@ namespace OOP_Excercise_Quyen
 
             Console.WriteLine("==============");
 
-            Animal lion = new Lion("Lion 1", 10, "Carnivore");
+            Animal lion = new Lion("Lion 1", 10, "Carnivore", "Yellow");
             lion.makeSound();
             lion.showInfo();
 
-            if (lion is Lion realLion)
+
+            if (lion is Lion lion1)
             {
-                realLion.Hunting(monkey);
+                lion1.Hunting(monkey);
+                Console.WriteLine("color:"+ lion1.Color);
             }
         }
     }
