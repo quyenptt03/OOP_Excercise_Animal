@@ -28,13 +28,8 @@ namespace OOP_Excercise_Quyen
             Animal lion = new Lion("Lion 1", 10, "Carnivore", "Yellow");
             lion.makeSound();
             lion.showInfo();
-
-
-            if (lion is Lion lion1)
-            {
-                lion1.Hunting(monkey);
-                Console.WriteLine("color:"+ lion1.Color);
-            }
+            ((Lion)lion).Hunting(monkey);
+            Console.WriteLine("Color: "+ ((Lion)lion).Color);
         }
     }
 }
