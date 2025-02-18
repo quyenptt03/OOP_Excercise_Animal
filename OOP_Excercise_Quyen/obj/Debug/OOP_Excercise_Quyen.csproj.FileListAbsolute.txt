@@ -1,0 +1,7 @@
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\bin\Debug\OOP_Excercise_Quyen.exe.config
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\bin\Debug\OOP_Excercise_Quyen.exe
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\bin\Debug\OOP_Excercise_Quyen.pdb
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\obj\Debug\OOP_Excercise_Quyen.csproj.AssemblyReference.cache
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\obj\Debug\OOP_Excercise_Quyen.csproj.CoreCompileInputs.cache
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\obj\Debug\OOP_Excercise_Quyen.exe
+D:\Quyen\Training\OOP\OOP_Excercise_Quyen\OOP_Excercise_Quyen\obj\Debug\OOP_Excercise_Quyen.pdb
