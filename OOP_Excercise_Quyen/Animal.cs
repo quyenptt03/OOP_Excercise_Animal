@@ -8,9 +8,9 @@ namespace OOP_Excercise_Quyen
 {
     public abstract class Animal
     {
-        string name;
-        int age;
-        string species;
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Species { get; set; }
 
         protected Animal(string name, int age, string species)
         {
@@ -26,28 +26,13 @@ namespace OOP_Excercise_Quyen
         {
             return $"Name: {Name}, Age: {Age}, Species: {Species}";
         }
+    }
 
-        public string Name
+    public static class AnimalExtentions
+    {
+        public static string GetAnimalType(this Animal animal)
         {
-            get { return name; }
-            set { name = value;  }
-        }
-
-        public int Age
-        {
-            get { return age; }
-            set { age = value; }
-        }
-
-        public string Species
-        {
-            get { return species; }
-            set { species = value; }
-        }
-
-        public string GetAnimalType()
-        {
-            return $"Type: {Species}";
+            return animal.Species;
         }
     }
 }

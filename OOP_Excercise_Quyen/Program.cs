@@ -23,6 +23,7 @@ namespace OOP_Excercise_Quyen
             elephant.makeSound();
             Console.WriteLine(elephant.showInfo());
             Console.WriteLine("Name: " + elephant.Name);
+            Console.WriteLine("Type: " + elephant.GetAnimalType());
 
             Console.WriteLine("==============");
 
@@ -33,9 +34,10 @@ namespace OOP_Excercise_Quyen
 
             lion.makeSound();
             Console.WriteLine(lion.showInfo());
-            Console.WriteLine(lion.GetAnimalType());
+            Console.WriteLine("Type: " + lion.GetAnimalType());
             Console.WriteLine("Color: " + ((Lion)lion).Color);
             ((Lion)lion).Hunt(monkey3);
+            ((Lion)lion2).Hunt(monkey);
 
             Console.WriteLine("\n================");
             Zoo zoo = new Zoo();
