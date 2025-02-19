@@ -32,7 +32,7 @@ namespace OOP_Excercise_Quyen
     {
         public static string GetAnimalType(this Animal animal)
         {
-            return animal.Species;
+            return animal.GetType().Name;
         }
     }
 }
