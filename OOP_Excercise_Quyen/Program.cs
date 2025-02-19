@@ -19,50 +19,57 @@ namespace OOP_Excercise_Quyen
             Animal lion = new Lion("Lion 1", 10, "Carnivore", "Yellow");
             Animal lion2 = new Lion("Lion 2", 20, "Carnivore", "Brown");
             Animal lion3 = new Lion("Lion 3", 25, "Carnivore", "Yellow");
+            Animal lion4 = new Lion("Lion 4", 35, "Carnivore", "Orange");
 
-            elephant.makeSound();
-            Console.WriteLine(elephant.showInfo());
-            Console.WriteLine("Name: " + elephant.Name);
-            Console.WriteLine("Type: " + elephant.GetAnimalType());
+            //elephant.makeSound();
+            //Console.WriteLine(elephant.showInfo());
+            //Console.WriteLine("Name: " + elephant.Name);
+            //Console.WriteLine("Type: " + elephant.GetAnimalType());
 
-            Console.WriteLine("==============");
+            //Console.WriteLine("==============");
 
-            monkey.makeSound();
-            Console.WriteLine(monkey.showInfo());
+            //monkey.makeSound();
+            //Console.WriteLine(monkey.showInfo());
 
-            Console.WriteLine("==============");
+            //Console.WriteLine("==============");
 
-            lion.makeSound();
-            Console.WriteLine(lion.showInfo());
-            Console.WriteLine("Type: " + lion.GetAnimalType());
-            Console.WriteLine("Color: " + ((Lion)lion).Color);
-            ((Lion)lion).Hunt(monkey3);
-            ((Lion)lion2).Hunt(monkey);
+            //lion.makeSound();
+            //Console.WriteLine(lion.showInfo());
+            //Console.WriteLine("Type: " + lion.GetAnimalType());
+            //Console.WriteLine("Color: " + ((Lion)lion).Color);
+            //((Lion)lion).Hunt(monkey3);
+            //((Lion)lion2).Hunt(monkey);
 
-            Console.WriteLine("\n================");
+            //Console.WriteLine("\n================");
             Zoo zoo = new Zoo();
-            zoo.OnAnimalAdded += OnAnimalAdded;
+            //zoo.OnAnimalAdded += OnAnimalAdded;
 
-            zoo.Add(elephant);
-            zoo.Add(elephant2);
-            zoo.Add(monkey);
-            zoo.Add(monkey2);
-            zoo.Add(monkey3);
-            zoo.Add(lion);
-            zoo.Add(lion2);
-            zoo.Add(lion3);
+            //zoo.Add(elephant);
+            //zoo.Add(elephant2);
+            //zoo.Add(monkey);
+            //zoo.Add(monkey2);
+            //zoo.Add(monkey3);
+            //zoo.Add(lion);
+            //zoo.Add(lion2);
+            //zoo.Add(lion3);
+            //zoo.Add(lion4);
 
-            Console.WriteLine("================");
-            Console.WriteLine(zoo);
+            //Console.WriteLine("================");
+            //Console.WriteLine(zoo);
 
-            var filterAnimals = zoo.Filter(20, "Herbivore");
-            Console.WriteLine("================");
-            Console.WriteLine("Herbivore > age 20:");
-            foreach(Animal animal in filterAnimals)
-            {
-                Console.WriteLine(animal.showInfo());
-                
-            }
+            //var filterAnimals = zoo.Filter(20, "Herbivore");
+            //Console.WriteLine("================");
+            //Console.WriteLine("Herbivore > age 20:");
+            //foreach(Animal animal in filterAnimals)
+            //{
+            //    Console.WriteLine(animal.showInfo());
+
+            //}
+
+            Console.WriteLine("=========================================");
+            //zoo.WriteJSONFile("data.json");
+            zoo.ReadJSONFile("data.json");
+            zoo.ShowInfo();
         }
 
        

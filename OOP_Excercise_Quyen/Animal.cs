@@ -12,12 +12,16 @@ namespace OOP_Excercise_Quyen
         public int Age { get; set; }
         public string Species { get; set; }
 
+        public Animal()
+        {
+
+        }
+
         protected Animal(string name, int age, string species)
         {
             Name = name;
             Age = age;
             Species = species;
-
         }
 
         public abstract void makeSound();

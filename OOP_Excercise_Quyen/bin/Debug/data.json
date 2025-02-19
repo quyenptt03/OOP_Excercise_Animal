@@ -1,0 +1,60 @@
+[
+  {
+    "Name": "Elephant 1",
+    "Age": 50,
+    "Species": "Herbivore",
+    "Type": "Elephant"
+  },
+  {
+    "Name": "Elephant 2",
+    "Age": 20,
+    "Species": "Herbivore",
+    "Type": "Elephant"
+  },
+  {
+    "Name": "Monkey 1",
+    "Age": 5,
+    "Species": "Herbivore",
+    "Type": "Monkey"
+  },
+  {
+    "Name": "Monkey 2",
+    "Age": 11,
+    "Species": "Herbivore",
+    "Type": "Monkey"
+  },
+  {
+    "Name": "Monkey 3",
+    "Age": 9,
+    "Species": "Herbivore",
+    "Type": "Monkey"
+  },
+  {
+    "Color": "Yellow",
+    "Name": "Lion 1",
+    "Age": 10,
+    "Species": "Carnivore",
+    "Type": "Lion"
+  },
+  {
+    "Color": "Brown",
+    "Name": "Lion 2",
+    "Age": 20,
+    "Species": "Carnivore",
+    "Type": "Lion"
+  },
+  {
+    "Color": "Yellow",
+    "Name": "Lion 3",
+    "Age": 25,
+    "Species": "Carnivore",
+    "Type": "Lion"
+  },
+  {
+    "Color": "Orange",
+    "Name": "Lion 4",
+    "Age": 35,
+    "Species": "Carnivore",
+    "Type": "Lion"
+  }
+]
